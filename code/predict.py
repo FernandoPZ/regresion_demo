@@ -6,5 +6,5 @@ while True:
     xs = []
     x = int(input("x:"))
     xs.append([x])
-    prediction = model.predict(xs)
+    prediction = self.model.predict(xs)
     print(prediction)
